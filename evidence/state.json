@@ -1,0 +1,235 @@
+{
+  "sealed": {
+    "answer_seconds": 3600,
+    "commit_deadline": 1792931980,
+    "curator": "0x2283aD5254EEb46f486d6B7291E46C2D6a9fF1A3",
+    "id": 1,
+    "leaderboard": [],
+    "outcomes": [],
+    "phase": "COMMIT",
+    "phase_deadline": 1792931980,
+    "players": [
+      {
+        "commitment": "2d483c9371512b9a9d53fc6226c7ead8feff12cca1550b490e203b94b66d649e",
+        "participant": "0xe0585a2f2C3caF8dc16177a2C7D661d25B8BB6D9",
+        "probabilities": [],
+        "revealed": false,
+        "salt": ""
+      },
+      {
+        "commitment": "8c331de26871318f835b9851b338db8c3316252733ba5cc8271b95df760748ac",
+        "participant": "0xf898561568fC4969FC5250FC4b16E28eca6c6472",
+        "probabilities": [],
+        "revealed": false,
+        "salt": ""
+      }
+    ],
+    "questions": [
+      "Does the notice offer support on Saturdays?",
+      "Does the notice require attendees to register before entering?",
+      "Is admission to the workshop free?"
+    ],
+    "reference": "",
+    "reference_digest": "a652578e8657ca54e76fda57fddc56dcab5a51cc37d65aa4d073fb6ff690d904",
+    "reference_salt": "",
+    "reveal_seconds": 3600,
+    "scored_questions": [],
+    "tag": "sealed-workshop-v1",
+    "void_reason": ""
+  },
+  "locked": {
+    "answer_seconds": 3600,
+    "commit_deadline": 1792931980,
+    "curator": "0x2283aD5254EEb46f486d6B7291E46C2D6a9fF1A3",
+    "id": 1,
+    "leaderboard": [],
+    "outcomes": [],
+    "phase": "ANSWER",
+    "phase_deadline": 1792932228,
+    "players": [
+      {
+        "commitment": "2d483c9371512b9a9d53fc6226c7ead8feff12cca1550b490e203b94b66d649e",
+        "participant": "0xe0585a2f2C3caF8dc16177a2C7D661d25B8BB6D9",
+        "probabilities": [
+          1000,
+          9000,
+          5000
+        ],
+        "revealed": true,
+        "salt": "27a85ebdc550b639efa160735a6d32183317548bdd0e35b11dff50795290e407"
+      },
+      {
+        "commitment": "8c331de26871318f835b9851b338db8c3316252733ba5cc8271b95df760748ac",
+        "participant": "0xf898561568fC4969FC5250FC4b16E28eca6c6472",
+        "probabilities": [
+          9000,
+          1000,
+          0
+        ],
+        "revealed": true,
+        "salt": "81db460bfbeacba909eb6aa0ef7474da462ff799a3a318fee5b5352ec0ec8e26"
+      }
+    ],
+    "questions": [
+      "Does the notice offer support on Saturdays?",
+      "Does the notice require attendees to register before entering?",
+      "Is admission to the workshop free?"
+    ],
+    "reference": "",
+    "reference_digest": "a652578e8657ca54e76fda57fddc56dcab5a51cc37d65aa4d073fb6ff690d904",
+    "reference_salt": "",
+    "reveal_seconds": 3600,
+    "scored_questions": [],
+    "tag": "sealed-workshop-v1",
+    "void_reason": ""
+  },
+  "final": {
+    "answer_seconds": 3600,
+    "commit_deadline": 1792931980,
+    "curator": "0x2283aD5254EEb46f486d6B7291E46C2D6a9fF1A3",
+    "id": 1,
+    "leaderboard": [
+      {
+        "participant": "0xe0585a2f2C3caF8dc16177a2C7D661d25B8BB6D9",
+        "rank": 1,
+        "score_bps": 9900,
+        "squared_error": 2000000
+      },
+      {
+        "participant": "0xf898561568fC4969FC5250FC4b16E28eca6c6472",
+        "rank": 2,
+        "score_bps": 1900,
+        "squared_error": 162000000
+      }
+    ],
+    "outcomes": [
+      "NO",
+      "YES",
+      "UNKNOWN"
+    ],
+    "phase": "SCORED",
+    "phase_deadline": 1792932266,
+    "players": [
+      {
+        "commitment": "2d483c9371512b9a9d53fc6226c7ead8feff12cca1550b490e203b94b66d649e",
+        "participant": "0xe0585a2f2C3caF8dc16177a2C7D661d25B8BB6D9",
+        "probabilities": [
+          1000,
+          9000,
+          5000
+        ],
+        "revealed": true,
+        "salt": "27a85ebdc550b639efa160735a6d32183317548bdd0e35b11dff50795290e407"
+      },
+      {
+        "commitment": "8c331de26871318f835b9851b338db8c3316252733ba5cc8271b95df760748ac",
+        "participant": "0xf898561568fC4969FC5250FC4b16E28eca6c6472",
+        "probabilities": [
+          9000,
+          1000,
+          0
+        ],
+        "revealed": true,
+        "salt": "81db460bfbeacba909eb6aa0ef7474da462ff799a3a318fee5b5352ec0ec8e26"
+      }
+    ],
+    "questions": [
+      "Does the notice offer support on Saturdays?",
+      "Does the notice require attendees to register before entering?",
+      "Is admission to the workshop free?"
+    ],
+    "reference": "The notice offers support Monday through Friday only. Support is not offered on Saturdays or Sundays. Attendees must register before entering the workshop.",
+    "reference_digest": "a652578e8657ca54e76fda57fddc56dcab5a51cc37d65aa4d073fb6ff690d904",
+    "reference_salt": "10bf28e556914306a35c89cc3d025cf1348ae50826bf20b0196ae67c28f47de6",
+    "reveal_seconds": 3600,
+    "scored_questions": [
+      0,
+      1
+    ],
+    "tag": "sealed-workshop-v1",
+    "void_reason": ""
+  },
+  "result": {
+    "digest": "1aa89693e3d04475f5ab8e78e336a6a79d2cf3ed31b7619ab98eb08d1d5471d1",
+    "payload": {
+      "chain_id": 61999,
+      "contract": "0x3a9E4B52f1dcD956E95155541Fc21E43bb5a1139",
+      "protocol": "Calibra/result/v1",
+      "round": {
+        "answer_seconds": 3600,
+        "commit_deadline": 1792931980,
+        "curator": "0x2283aD5254EEb46f486d6B7291E46C2D6a9fF1A3",
+        "id": 1,
+        "leaderboard": [
+          {
+            "participant": "0xe0585a2f2C3caF8dc16177a2C7D661d25B8BB6D9",
+            "rank": 1,
+            "score_bps": 9900,
+            "squared_error": 2000000
+          },
+          {
+            "participant": "0xf898561568fC4969FC5250FC4b16E28eca6c6472",
+            "rank": 2,
+            "score_bps": 1900,
+            "squared_error": 162000000
+          }
+        ],
+        "outcomes": [
+          "NO",
+          "YES",
+          "UNKNOWN"
+        ],
+        "phase": "SCORED",
+        "phase_deadline": 1792932266,
+        "players": [
+          {
+            "commitment": "2d483c9371512b9a9d53fc6226c7ead8feff12cca1550b490e203b94b66d649e",
+            "participant": "0xe0585a2f2C3caF8dc16177a2C7D661d25B8BB6D9",
+            "probabilities": [
+              1000,
+              9000,
+              5000
+            ],
+            "revealed": true,
+            "salt": "27a85ebdc550b639efa160735a6d32183317548bdd0e35b11dff50795290e407"
+          },
+          {
+            "commitment": "8c331de26871318f835b9851b338db8c3316252733ba5cc8271b95df760748ac",
+            "participant": "0xf898561568fC4969FC5250FC4b16E28eca6c6472",
+            "probabilities": [
+              9000,
+              1000,
+              0
+            ],
+            "revealed": true,
+            "salt": "81db460bfbeacba909eb6aa0ef7474da462ff799a3a318fee5b5352ec0ec8e26"
+          }
+        ],
+        "questions": [
+          "Does the notice offer support on Saturdays?",
+          "Does the notice require attendees to register before entering?",
+          "Is admission to the workshop free?"
+        ],
+        "reference": "The notice offers support Monday through Friday only. Support is not offered on Saturdays or Sundays. Attendees must register before entering the workshop.",
+        "reference_digest": "a652578e8657ca54e76fda57fddc56dcab5a51cc37d65aa4d073fb6ff690d904",
+        "reference_salt": "10bf28e556914306a35c89cc3d025cf1348ae50826bf20b0196ae67c28f47de6",
+        "reveal_seconds": 3600,
+        "scored_questions": [
+          0,
+          1
+        ],
+        "tag": "sealed-workshop-v1",
+        "void_reason": ""
+      },
+      "round_id": 1
+    }
+  },
+  "roles": {
+    "curator": "0x2283aD5254EEb46f486d6B7291E46C2D6a9fF1A3",
+    "forecasters": [
+      "0xe0585a2f2C3caF8dc16177a2C7D661d25B8BB6D9",
+      "0xf898561568fC4969FC5250FC4b16E28eca6c6472"
+    ],
+    "keeper": "0x40A0347ABEc38EEBeaab0CFF1C7601257A8ECAAB"
+  }
+}

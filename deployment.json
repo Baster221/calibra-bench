@@ -1,0 +1,17 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "address": "0x3a9E4B52f1dcD956E95155541Fc21E43bb5a1139",
+  "explorer": "https://explorer-studio.genlayer.com/address/0x3a9E4B52f1dcD956E95155541Fc21E43bb5a1139",
+  "deployment_transaction": "0x4cd3b619ace771c1014ad876289e887f3a18c122363acf91d8ab47aa5afee1aa",
+  "deployer": "0x2283aD5254EEb46f486d6B7291E46C2D6a9fF1A3",
+  "source_path": "contracts/calibra_bench.py",
+  "source_sha256": "9f843a02bcecaffe2e80644e8876dc8ff57424ef9607eaaaefb357bbf14756d0",
+  "deployed_source_sha256": "9f843a02bcecaffe2e80644e8876dc8ff57424ef9607eaaaefb357bbf14756d0",
+  "byte_for_byte_match": true,
+  "runner": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+  "deployment_status": "FINALIZED",
+  "deployment_execution": "SUCCESS",
+  "verified_at": "2026-10-25T11:39:43.356Z"
+}

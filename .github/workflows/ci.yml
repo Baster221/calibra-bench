@@ -1,0 +1,36 @@
+name: Contract invariants
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    env:
+      GENVM_VERSION: v0.2.12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.10'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: genvm-lint check contracts/calibra_bench.py --json
+      - name: Reuse pinned runtime for direct tests
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import shutil
+          artifact = 'genvm-universal-v0.2.12.tar.xz'
+          source = Path.home() / '.cache' / 'genvm-linter' / artifact
+          target = Path.home() / '.cache' / 'gltest-direct' / artifact
+          target.parent.mkdir(parents=True, exist_ok=True)
+          shutil.copyfile(source, target)
+          PY
+      - run: python -m pytest -q
+      - run: python scripts/check_manifest.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: python scripts/check_codec.py

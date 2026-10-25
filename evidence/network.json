@@ -1,0 +1,219 @@
+[
+  {
+    "label": "deploy",
+    "hash": "0x4cd3b619ace771c1014ad876289e887f3a18c122363acf91d8ab47aa5afee1aa",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE": "idle",
+      "0x4441Ebe37E72c039B73f1D6CF8C6DEe277FE547a": "agree",
+      "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8": "idle",
+      "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "agree",
+      "0xCe0B66448435cA53665C954705Abd753515594Cf": "agree"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "null"
+      }
+    },
+    "eq_outputs": {}
+  },
+  {
+    "label": "open benchmark with sealed reference and fixed roster",
+    "hash": "0xeea8500d62b3ac91f420bf06e95d4ddf2cec6b729bbd9d80bf837b514ceca567",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x336458747913FE397be82c4F0926ACeB3ab13618": "agree",
+      "0x63d72fE364368491E62a42B9C73c317Ce1ca8434": "agree",
+      "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc": "agree",
+      "0xCe0B66448435cA53665C954705Abd753515594Cf": "agree",
+      "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2": "agree"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "1"
+      }
+    },
+    "eq_outputs": {}
+  },
+  {
+    "label": "seal forecast 1",
+    "hash": "0x6c8f2f85b32650aaf507650a99717770ed43d3a91dac4f1e1f115d448c24df78",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x4441Ebe37E72c039B73f1D6CF8C6DEe277FE547a": "agree",
+      "0x5847AF34a4e5bA96490f8c883598f68EC9B0B907": "idle",
+      "0x63d72fE364368491E62a42B9C73c317Ce1ca8434": "agree",
+      "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc": "idle",
+      "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2": "agree"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "null"
+      }
+    },
+    "eq_outputs": {}
+  },
+  {
+    "label": "seal forecast 2",
+    "hash": "0x4f3ac59edfe7e2c727644474fac673b608535d7107ebdb33a752a7ee394e3f55",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE": "agree",
+      "0x336458747913FE397be82c4F0926ACeB3ab13618": "agree",
+      "0x378aED3bA912Ce77C3C66155961A7e61C2fE8F3B": "agree",
+      "0x5847AF34a4e5bA96490f8c883598f68EC9B0B907": "agree",
+      "0x63d72fE364368491E62a42B9C73c317Ce1ca8434": "agree"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "null"
+      }
+    },
+    "eq_outputs": {}
+  },
+  {
+    "label": "close committed cohort before prediction reveal",
+    "hash": "0xe11b872f1b6fe0babee34158d05b445d4882a08930406dd81acf44ab540e3238",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x007d6451555Df7765c707284F844137927aE4e5E": "agree",
+      "0x5847AF34a4e5bA96490f8c883598f68EC9B0B907": "agree",
+      "0x5e84e17266a193077728229751aC8A1dD24be146": "agree",
+      "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc": "agree",
+      "0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9": "agree"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "\"REVEAL\""
+      }
+    },
+    "eq_outputs": {}
+  },
+  {
+    "label": "reveal forecast 1",
+    "hash": "0x07edc586e3803b312aad14317359a774eaae7b9c01d35a5868a7453d7f6be1cd",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE": "agree",
+      "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8": "idle",
+      "0x5e84e17266a193077728229751aC8A1dD24be146": "idle",
+      "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "agree",
+      "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186": "agree"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "null"
+      }
+    },
+    "eq_outputs": {}
+  },
+  {
+    "label": "reveal forecast 2",
+    "hash": "0xb02ada43a8b07f6ae5d07201be163d691a3b034f1e6394979c78e38279132357",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x045291B293B9D68969c18B6637A8258038cf787A": "idle",
+      "0x336458747913FE397be82c4F0926ACeB3ab13618": "agree",
+      "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A": "idle",
+      "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8": "agree",
+      "0xCe0B66448435cA53665C954705Abd753515594Cf": "agree"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "null"
+      }
+    },
+    "eq_outputs": {}
+  },
+  {
+    "label": "lock all revealed forecasts before opening reference",
+    "hash": "0x18de1d6ac949851442aaa8c92519cc7a67356490b56e5cc36d03655b838e4ad1",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x4619C8420D50c9dE477DB2CBb7b4863A041688CB": "agree",
+      "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8": "agree",
+      "0x5e84e17266a193077728229751aC8A1dD24be146": "agree",
+      "0xCe0B66448435cA53665C954705Abd753515594Cf": "agree",
+      "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2": "agree"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "\"ANSWER\""
+      }
+    },
+    "eq_outputs": {}
+  },
+  {
+    "label": "reveal hash-matched precommitted reference",
+    "hash": "0x1e459251d4507963c1c579a050d58a9e932e28487f7ef40f1ea2ad9b39165946",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x336458747913FE397be82c4F0926ACeB3ab13618": "agree",
+      "0x4619C8420D50c9dE477DB2CBb7b4863A041688CB": "agree",
+      "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8": "agree",
+      "0x5e84e17266a193077728229751aC8A1dD24be146": "agree",
+      "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "agree"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "null"
+      }
+    },
+    "eq_outputs": {}
+  },
+  {
+    "label": "consensus answer vector and exact quadratic scoring",
+    "hash": "0x338f35b11d5052a0f7c930fc1a24bc610ccb3618d23537c536b0cb507ca81e6e",
+    "status": "FINALIZED",
+    "execution": "SUCCESS",
+    "result": "MAJORITY_AGREE",
+    "votes": {
+      "0x007d6451555Df7765c707284F844137927aE4e5E": "agree",
+      "0x045291B293B9D68969c18B6637A8258038cf787A": "idle",
+      "0x378aED3bA912Ce77C3C66155961A7e61C2fE8F3B": "agree",
+      "0x5e84e17266a193077728229751aC8A1dD24be146": "agree",
+      "0xCe0B66448435cA53665C954705Abd753515594Cf": "idle"
+    },
+    "leader_result": {
+      "status": "return",
+      "payload": {
+        "readable": "{\"leaderboard\":[{\"participant\":\"0xe0585a2f2C3caF8dc16177a2C7D661d25B8BB6D9\"\"rank\":1\"score_bps\":9900\"squared_error\":2000000},{\"participant\":\"0xf898561568fC4969FC5250FC4b16E28eca6c6472\"\"rank\":2\"score_bps\":1900\"squared_error\":162000000},]\"outcomes\":[\"NO\",\"YES\",\"UNKNOWN\",]\"phase\":\"SCORED\"\"scored_questions\":[0,1,]}"
+      }
+    },
+    "eq_outputs": {
+      "0": {
+        "status": "return",
+        "payload": {
+          "readable": "[\"NO\",\"YES\",\"UNKNOWN\",]"
+        }
+      }
+    }
+  }
+]
